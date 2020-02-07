@@ -8,7 +8,7 @@
   - [INSTALL](#install)
   - [EXTENSION INSTALLATION](#extension-installation)
   - [USE THE AUTOMATION SCRIPT](#use-the-automation-script)
-  - [EXTENSION INSTALLATION](#extension-installation)
+  - [CLEAN UP UNANSWERED REQUESTS](#clean-up-unanswered-requests)
   - [LICENSE](#license)
 
 ## INTRODUCTION
