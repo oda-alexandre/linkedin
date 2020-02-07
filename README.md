@@ -2,11 +2,13 @@
 
 ## INDEX
 
-- [LINKEDIN](#linkedin)
+  - [LINKEDIN](#linkedin)
   - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [INSTALL](#install)
-- [](#)
+  - [EXTENSION INSTALLATION](#extension-installation)
+  - [USE THE AUTOMATION SCRIPT](#use-the-automation-script)
+  - [EXTENSION INSTALLATION](#extension-installation)
   - [LICENSE](#license)
 
 ## INTRODUCTION
@@ -15,25 +17,27 @@ This repository contains a script for automated Linkedin
 
 ## INSTALL
 
-# 
+### EXTENSION INSTALLATION
 
-```git clone https://gitlab.com/oda-alexandre/linkedin.git ~/linkedin```
+To use this script, we will need to install an extension, go to the Google Chrome web store and install [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
 
-- Moving the script in the folder /etc/init.d/
+Once the extension is installed in your browser, go to [greasyfork.org](greasyfork.org/…/26829-add-all-linkedin-users-for-2017-version) and click on the green Install this script button.
 
-```mv -f ~/linkedin/auto-clean /etc/init.d/```
+### USE THE AUTOMATION SCRIPT
 
-- Make the script executable
+To use the script you just installed, just go to LinkedIn on the Network page: www.linkedin.com/mynetwork/?BotMe=true. The "BotMe = true" parameter added to the URL is required if you want to enable automation.
 
-```chmod +x /etc/init.d/auto-clean```
+Once on this page, you will see your page load from top to bottom on its own (auto-scroll) for approximately 2 minutes (30 loads). Then a new page will open on its own, and the contacts loaded on the previous one will be automatically added.
 
-- Automatic startup of the script
+### CLEAN UP UNANSWERED REQUESTS
 
-```update-rc.d -f auto-clean defaults```
+Load your page beforehand (www.linkedin.com/mynetwork/invitation-manager/sent) by going down to the bottom of the page to load all pending requests.
 
-- Remove installation residues
+Then open the developer console of your browser (Google Chrome) by pressing the F12 key on your keyboard. Then copy / paste this little command:
 
-```rm -rf ~/linkedin```
+```$('button.mn-person-card__person-btn-ext.button-tertiary-medium-muted').click();```
+
+>This will have the effect of clicking on all pending invitation buttons, and will cancel these requests automatically.
 
 ## LICENSE
 
