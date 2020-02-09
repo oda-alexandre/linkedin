@@ -1,5 +1,6 @@
 # LINKEDIN
 
+
 ## INDEX
 
   - [LINKEDIN](#linkedin)
@@ -11,11 +12,14 @@
   - [CLEAN UP UNANSWERED REQUESTS](#clean-up-unanswered-requests)
   - [LICENSE](#license)
 
+
 ## INTRODUCTION
 
 This repository contains a script for automated Linkedin
 
+
 ## INSTALL
+
 
 ### EXTENSION INSTALLATION
 
@@ -23,11 +27,13 @@ To use this script, we will need to install an extension, go to the Google Chrom
 
 Once the extension is installed in your browser, go to [greasyfork.org](greasyfork.org/…/26829-add-all-linkedin-users-for-2017-version) and click on the green Install this script button.
 
+
 ### USE THE AUTOMATION SCRIPT
 
 To use the script you just installed, just go to LinkedIn on the Network page: www.linkedin.com/mynetwork/?BotMe=true. The "BotMe = true" parameter added to the URL is required if you want to enable automation.
 
 Once on this page, you will see your page load from top to bottom on its own (auto-scroll) for approximately 2 minutes (30 loads). Then a new page will open on its own, and the contacts loaded on the previous one will be automatically added.
+
 
 ### CLEAN UP UNANSWERED REQUESTS
 
@@ -38,6 +44,7 @@ Then open the developer console of your browser (Google Chrome) by pressing the 
 ```$('button.mn-person-card__person-btn-ext.button-tertiary-medium-muted').click();```
 
 >This will have the effect of clicking on all pending invitation buttons, and will cancel these requests automatically.
+
 
 ## LICENSE
 
