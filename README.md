@@ -1,6 +1,6 @@
 # LINKEDIN
 
-
+<img src="https://assets.gitlab-static.net/uploads/-/system/project/avatar/16769270/LinkedIn-logo.jpg" width="200" height="200"/>
 
 ## INDEX
 
