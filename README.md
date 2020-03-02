@@ -7,7 +7,6 @@
 - [LINKEDIN](#linkedin)
   - [INDEX](#index)
   - [BADGES](#badges)
-  - [FIRST UPDATE](#first-update)
   - [INTRODUCTION](#introduction)
   - [INSTALL](#install)
     - [EXTENSION INSTALLATION](#extension-installation)
@@ -18,10 +17,6 @@
 ## BADGES
 
 [![pipeline status](https://gitlab.com/oda-alexandre/linkedin/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/linkedin/commits/master)
-
-## FIRST UPDATE
-
-Date: 01-01-01
 
 ## INTRODUCTION
 
