@@ -5,7 +5,6 @@ services:
 
 stages:
   - test
-  - date
   - staging
   - deploy
 
@@ -52,15 +51,6 @@ license_management:
         "registry.gitlab.com/gitlab-org/security-products/license-management:${LICENSE_MANAGEMENT_VERSION}" analyze /code
   artifacts:
     paths: [gl-license-management-report.json]
-  only:
-    - dev
-
-date:
-  stage: date
-  allow_failure: false
-  script:
-    - echo -e '\033[36;1m ******* DATE ******** \033[0m'
-    - "date=$(date +\"%Y-%m-%d\") && sed -i \"s/^Date: .*/Date: $date/\" README.md"
   only:
     - dev
 
