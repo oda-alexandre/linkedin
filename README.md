@@ -4,14 +4,25 @@
 
 ## INDEX
 
-  - [LINKEDIN](#linkedin)
+- [LINKEDIN](#linkedin)
   - [INDEX](#index)
+  - [BADGES](#badges)
+  - [FIRST UPDATE](#first-update)
   - [INTRODUCTION](#introduction)
   - [INSTALL](#install)
-  - [EXTENSION INSTALLATION](#extension-installation)
-  - [USE THE AUTOMATION SCRIPT](#use-the-automation-script)
-  - [CLEAN UP UNANSWERED REQUESTS](#clean-up-unanswered-requests)
+    - [EXTENSION INSTALLATION](#extension-installation)
+    - [USE THE AUTOMATION SCRIPT](#use-the-automation-script)
+    - [CLEAN UP UNANSWERED REQUESTS](#clean-up-unanswered-requests)
   - [LICENSE](#license)
+
+## BADGES
+
+[![pipeline status](https://gitlab.com/oda-alexandre/linkedin/badges/master/pipeline.svg)](https://gitlab.com/oda-alexandre/linkedin/commits/master)
+
+
+## FIRST UPDATE
+
+Date: 01-01-01
 
 
 ## INTRODUCTION
