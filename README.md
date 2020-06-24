@@ -2,8 +2,6 @@
 
 ![logo](https://assets.gitlab-static.net/uploads/-/system/project/avatar/16769270/LinkedIn-logo.jpg)
 
-## INDEX
-
 - [LINKEDIN](#linkedin)
   - [INDEX](#index)
   - [BADGES](#badges)
